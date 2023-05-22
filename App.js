@@ -213,7 +213,7 @@ export default class App extends React.Component {
           >
             <TouchableOpacity
               activeOpacity={0.5}
-              onPress={() => alert("can't save right now")}
+              onPress={() => alert("Cannot save image")}
             >
               <Ionicons name="ios-save" size={40} color="white" />
             </TouchableOpacity>
